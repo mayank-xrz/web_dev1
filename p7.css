@@ -1,0 +1,101 @@
+
+:root {
+    --primary-color: #263859;
+    --secondary-color: #17233d;
+    --background-color: #f4f6f9;
+    --card-color: #ffffff;
+    --text-color: #333333;
+    --accent-color: #f4c95d;
+    --main-font: Arial, sans-serif;
+    --heading-size: 28px;
+    --subheading-size: 20px;
+    --paragraph-size: 16px;
+    --small-space: 10px;
+    --medium-space: 20px;
+    --large-space: 35px;
+}
+
+body {
+    font-family: var(--main-font);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: var(--large-space);
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: var(--paragraph-size);
+}
+
+nav {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: var(--medium-space);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: var(--small-space);
+    font-size: var(--paragraph-size);
+}
+
+nav a:hover {
+    color: var(--accent-color);
+}
+
+main {
+    width: 80%;
+    margin: var(--large-space) auto;
+}
+
+section {
+    background-color: var(--card-color);
+    padding: var(--medium-space);
+    margin-bottom: var(--medium-space);
+    border-radius: 8px;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-size: var(--heading-size);
+}
+
+h3 {
+    color: var(--secondary-color);
+    font-size: var(--subheading-size);
+}
+
+p {
+    font-size: var(--paragraph-size);
+    line-height: 1.6;
+}
+
+article {
+    background-color: var(--background-color);
+    padding: var(--medium-space);
+    margin: var(--small-space) 0;
+    border-radius: 6px;
+}
+
+ul {
+    line-height: 2;
+    font-size: var(--paragraph-size);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: var(--medium-space);
+}
